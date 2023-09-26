@@ -1,5 +1,61 @@
 @charset "UTF-8";
 
-body{
-    flex-wrap: wrap;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 58, 215);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px; /* Adjust font size to your preference */
+    margin: 0; /* Remove default margin for body */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+/* Section styling */
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* White background for sections */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+#presentation {
+    border: 3px solid rgb(82, 30, 30);
+}
+
+#profession {
+    border: 5px solid #0d0a2a;
+}
+
+#image {
+    border: 100 px;
+    border-radius: 30px;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+#links a {
+    text-decoration: none;
+    color: rgb(92, 58, 215);
+    transition: background-color 0.3s, color 0.3s;
+    line-height: 200%;
+    font-size: 5em;
+
+}
+
+#links a:hover {
+    background-color: rgb(92, 58, 215);
+    color: #fff;
 }
