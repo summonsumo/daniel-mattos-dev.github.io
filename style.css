@@ -1,37 +1,61 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(92, 58, 215);
+    background: rgb(159,163,179);
+    background: radial-gradient(circle, rgba(159,163,179,1) 0%, rgba(44,45,55,1) 48%);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 16px; /* Adjust font size to your preference */
-    margin: 0; /* Remove default margin for body */
-    min-height: 100vh; /* Ensure full viewport height */
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 20px; 
+    min-height: 100vh;
+    color:rgb(206, 189, 232);
+     
 }
 
-/* Section styling */
+
 .section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff; /* White background for sections */
+    background-color: #fff; 
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 #presentation {
-    border: 3px solid rgb(82, 30, 30);
+    width: 50%;
+    border: 3px solid rgba(82, 30, 30, 0.271);
+    margin: 30px;
+    border-radius: 20px;
 }
 
-#profession {
-    border: 5px solid #0d0a2a;
+#profession{
+    width: 50%;
+    border: 5px solid #0d0a2a6f;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+#academy {
+    width: 50%;
+    border: 5px solid #0f566a4a;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+div:hover{
+    color:rgb(255, 255, 255);
+    transition: 0.8s;
+    box-shadow: 0px 0px 10px white;
 }
 
 #image {
@@ -44,18 +68,25 @@ body {
     justify-content: center;
     align-items: center;
     margin: 150px;
+    
 }
 
 #links a {
     text-decoration: none;
-    color: rgb(92, 58, 215);
+    color: rgb(191, 182, 224);
     transition: background-color 0.3s, color 0.3s;
     line-height: 200%;
-    font-size: 5em;
+    font-size: 3em;
+    padding: 20px;
+    margin-right: 40px;
 
 }
 
 #links a:hover {
     background-color: rgb(92, 58, 215);
     color: #fff;
+}
+
+ul{
+    list-style-type: none;
 }
