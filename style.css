@@ -33,7 +33,7 @@ body {
 
 #presentation {
     width: 50%;
-    border: 3px solid rgba(82, 30, 30, 0.271);
+    border: 5px solid rgba(82, 30, 30, 0.271);
     margin: 30px;
     border-radius: 20px;
 }
@@ -96,6 +96,6 @@ div:hover{
     color: #fff;
 }
 
-ul{
-    list-style-type: none;
+footer{
+    font-size: 0.5em;
 }
