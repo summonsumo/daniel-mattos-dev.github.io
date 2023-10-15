@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(159,163,179);
-    background: radial-gradient(circle, rgba(159,163,179,1) 0%, rgba(44,45,55,1) 48%);
+    background: radial-gradient(circle, rgba(159,163,179,1) 0%, rgba(44,45,55,1) 75%);
     text-align: center;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 20px; 
@@ -64,23 +64,32 @@ div:hover{
 }
 
 #links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     margin: 150px;
+    text-align: left;
     
+}
+
+#links ul{
+    margin-right: auto;
 }
 
 #links a {
     text-decoration: none;
+    justify-content: center;
+    align-items: left;
     color: rgb(191, 182, 224);
     transition: background-color 0.3s, color 0.3s;
     line-height: 200%;
-    font-size: 3em;
-    padding: 20px;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 30px;
     margin-right: 40px;
 
 }
+
+
 
 #links a:hover {
     background-color: rgb(92, 58, 215);
