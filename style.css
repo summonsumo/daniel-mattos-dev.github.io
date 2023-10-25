@@ -100,3 +100,9 @@ div:hover{
 footer{
     font-size: 0.5em;
 }
+
+@media screen and (max-width: 500px){
+    body{
+        font-size: 0.3em;
+    }
+}
